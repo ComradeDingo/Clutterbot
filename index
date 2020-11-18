@@ -1,0 +1,13 @@
+{
+
+var CONFIG = require('./config.json');
+var quotes = CONFIG.quotes;
+var prefix = CONFIG.prefix;
+var command = CONFIG.command
+if (message.content.startsWith(config.prefix)) return;
+
+if(command === "cbuck") {
+var randomNumber = Math.floor(Math.random()*(quotes.length));
+return message.reply("randomNumber");
+
+}
